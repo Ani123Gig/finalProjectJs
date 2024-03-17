@@ -1,0 +1,157 @@
+/* tablets.css */
+
+/* Add your existing tablet styles here */
+
+/* Adjustments for tablets */
+@media (max-width: 1024px) {
+
+    /* Example of adjustments for tablets */
+    .map_section {
+        padding: 120px 134px;
+        /* Adjust padding for tablets */
+    }
+
+    /* Add more adjustments for tablets */
+}
+
+@media (max-width:744px) {
+
+    .text_container {
+        top: 20%;
+        left: 40%;
+    }
+
+    .div2 {
+        margin-right: 30px;
+    }
+
+    .div3 {
+        margin-right: 100px;
+    }
+
+    .di2_2 {
+        margin-top: 30px;
+    }
+
+    header {
+        justify-content: center;
+
+    }
+
+
+
+    .text_container {
+
+        top: 40%;
+        left: 40%;
+
+
+    }
+
+    .section2 {
+        width: 100%;
+        height: 1064px;
+        padding: 480px 46px;
+        background: #EA904F;
+    }
+
+
+    .latest_products {
+        padding: 100px 200px;
+    }
+
+    .cover2title {
+        padding: 300px 120px;
+
+    }
+
+    .search {
+        display: flex;
+        z-index: 1000;
+        margin-top: -250px;
+        margin-left: 130px;
+    }
+
+
+    footer {
+        background: #402101;
+        height: 904px;
+        display: block;
+        padding: 80px 120px;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+
+    .form-box {
+
+        margin-left: 50px;
+
+    }
+
+    .column {
+        margin-right: 140px;
+        display: flex;
+    }
+
+    .conts {
+        display: block;
+
+
+    }
+
+    .map_section {
+
+        padding: 120px 54px;
+
+    }
+
+    .contact_h5 {
+
+        margin-left: 100PX;
+        margin-bottom: 100px;
+    }
+
+    iframe {
+        width: 402px;
+        margin-top: 60px;
+
+    }
+
+    .icn_p {
+        display: none;
+    }
+
+    .icn {
+
+        margin-right: 60px;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .responsive-nav li {
+        display: block;
+    }
+
+    .responsive-nav {
+        padding: 20px;
+        margin-top: 100px;
+        margin-left: -200px;
+    }
+
+    .ulcl {
+        display: none;
+    }
+
+    .icons p {
+        display: none;
+
+    }
+
+    .icons_class {
+        display: flex;
+        column-gap: 50px;
+        margin-top: 30px;
+    }
+}

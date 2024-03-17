@@ -1,0 +1,144 @@
+/* Add this to your existing CSS file */
+/* Sign In and Register Forms */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.contact_section1 h2 {
+    color: white;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    /* Adjust this value to move the heading higher */
+}
+
+.contact_section1 {
+    display: flex;
+    justify-content: space-between;
+    /* Aligns items with space between them */
+    align-items: flex-start;
+    /* Aligns items to the top */
+    flex-wrap: wrap;
+    /* Allows items to wrap to the next line if needed */
+}
+
+.form-container {
+    position: relative;
+    width: 50%;
+    /* Each form container takes up half of the space */
+    height: 100%;
+    /* Full height */
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    padding: 30px;
+    background-color: #B53B1B;
+    padding: 150px 30px;
+    width: 500px;
+    height: 400px;
+    background: linear-gradient(0deg, rgba(64, 33, 1, 0.9), rgba(64, 33, 1, 0.9)),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    box-shadow: -1px -1px 4px 0px #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 7px 20px;
+    border-radius: 6px;
+    background: transparent;
+}
+
+/* Form styles */
+.form-container form {
+    max-width: 300px;
+    /* Adjust form width as needed */
+    width: 100%;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    border-color: white;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6e8efb;
+    /* Example color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #556cd6;
+    /* Example color */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .contact_section1 {
+        padding: 20px;
+    }
+}
+
+.form-container h2 {
+    color: white;
+    position: absolute;
+    top: 0;
+    /* Place the headings at the top */
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    /* Adjust the margin to create space between headings and inputs */
+}

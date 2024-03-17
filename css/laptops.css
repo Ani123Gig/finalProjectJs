@@ -1,0 +1,77 @@
+/* laptops.css */
+
+/* Add your existing laptop styles here */
+
+/* Adjustments for smaller screens */
+@media (max-width: 744px) {
+
+    /* Example of adjustments for smaller screens */
+    .form-box {
+        margin-left: 50px;
+        /* Adjust margin for smaller screens */
+    }
+
+    /* Add more adjustments for smaller screens */
+}
+
+@media (max-width: 1024px) {
+    .text_container {
+        top: 20%;
+    }
+
+    .section1 {
+        margin-bottom: -400px;
+    }
+
+    .section2 {
+        width: 100%;
+        height: 704px;
+        padding: 430px 126px;
+        background: #EA904F;
+    }
+
+
+    .latest_products {
+        padding: 100px 300px;
+    }
+
+    .cover2title {
+        padding: 300px 220px;
+
+    }
+
+    .search {
+        display: flex;
+        z-index: 1000;
+        margin-top: -250px;
+        margin-left: 270px;
+    }
+
+    .contact_section1 {
+        padding-left: 10px;
+    }
+
+    .map_section {
+
+        padding: 120px 134px;
+    }
+
+    footer {
+
+        height: 414px;
+
+    }
+
+    .div2 {
+        margin-left: 20px;
+    }
+
+    .di2_2 {
+        margin-left: 80px;
+    }
+
+    .section3 {
+
+        overflow: scroll;
+    }
+}
